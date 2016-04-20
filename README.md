@@ -109,6 +109,9 @@ end script
 ```
 
 ### nginx virtual hosts ###
+
+Location: /etc/nginx/nginx.conf
+
 ```
 upstream uwsgiclustersidr {
   server 127.0.0.1:8000;
