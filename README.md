@@ -82,7 +82,7 @@ Note: on AWS Linux you might need to perform these first:
 ```
 sudo yum groupinstall "Development Tools"
 sudo yum install python-devel
-python34-devel.x86_64
+sudo yum install python34-devel.x86_64
 ```
 
 Next:
