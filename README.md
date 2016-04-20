@@ -87,7 +87,8 @@ $ source PATHTOVENV/lib/py3.4/bin/activate
 ```
 
 ```
-pip install -r requirements.txt
+$ sudo apt-get install python3.4-dev
+$ pip install -r requirements.txt
 ```
 
 ### Upstart script ###
