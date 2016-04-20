@@ -77,9 +77,20 @@ Save the token to be used for further interactions with the API, you can either 
 - Python >= 3.4.3
 
 ### Installation ###
+
+Note: on AWS Linux you might need to perform these first:
+```
+sudo yum groupinstall "Development Tools"
+sudo yum install python-devel
+python34-devel.x86_64
+```
+
+Next:
+
 ```
 pip install -r requirements.txt
 ```
+
 
 ### Upstart script ###
 *Assuming the code is located in /var/www/sidr
