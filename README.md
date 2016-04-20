@@ -78,19 +78,17 @@ Save the token to be used for further interactions with the API, you can either 
 
 ### Installation ###
 
-Note: on AWS Linux you might need to perform these first:
-```
-sudo yum groupinstall "Development Tools"
-sudo yum install python-devel
-sudo yum install python34-devel.x86_64
-```
+To upgrade venv to Python 3.4:
 
-Next:
+```
+$ sudo apt-get install python3.4-venv
+$ sudo virtualenv -p /usr/bin/python3.4 py3.4
+$ source PATHTOVENV/lib/py3.4/bin/activate
+```
 
 ```
 pip install -r requirements.txt
 ```
-
 
 ### Upstart script ###
 *Assuming the code is located in /var/www/sidr
